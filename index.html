@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Pagina de Jana</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <style>
+        /* Estilos adicionales para hacer la página responsiva */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+        }
+        section#content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        article.article {
+            flex-basis: calc(33.33% - 20px); /* Ajusta el ancho de los artículos */
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid rgb(240, 145, 197);
+            box-sizing: border-box;
+        }
+        aside {
+            flex-basis: calc(33.33% - 20px); /* Ajusta el ancho de la barra lateral */
+            padding: 10px;
+            border: 1px solid rgb(116, 226, 226);
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* Media queries para ajustar el diseño en pantallas más pequeñas */
+        @media screen and (max-width: 768px) {
+            section#content {
+                flex-direction: column;
+            }
+            article.article, aside {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>CHIGNAHUAPAN EL MEJOR LUGAR TURISTICO</h1>
+    </header>
+    <marquee bgcolor="#006699" behavior="alternate" direction="right">
+        <b><font color="#FFFFCC" size="5">BIENVENIDO A ESTA PAGINA DISFRUTA </font></b>
+    </marquee>
+
+    <div class="clearfix"></div>
+
+    <section id="content">
+        <article class="article">
+            <hr/>
+            <h1>HISTORIA CHIGNAHUAPAN</h1>
+            <h3>CHIGNAHUAPAN EL MEJOR PUEBLO MAGICO</h3>
+            <ul>
+                <li><a href="CHIGNAHUAPAN/MOSTRAR.jpeg">CHIGNAHUAPAN</a></li>
+                <li><a>En 1527 es fundada la poblacion de Santiago Chiquinahuitle,</a></li>
+                <li><a>(nueve ojos de agua). Poco despues llegaron misioneros a</a></li>
+                <li><a>establecerse este lugar como centro para adoctrinacion y conversion</a></li>
+            </ul>
+        </article>
+
+        
+<article class="article">
+    <h2>ATRACCION 2</h2>
+    <ul>
+        
+        <li>  <a href="ATRACCION2/INMACULADA.mp4">INMACULADA</a> </li>
+        
+    </ul>
+    <hr/>
+</article>
+
+<article class="article">
+    <h2>ATRACCION 3</h2>
+        <ul>
+           
+            <li>  <a href="ATRACCION3/LAGUNA CHIGNAHUPAN.mp4">LAGUNA CHIGNAHUAPAN</a> </li>
+           
+        </ul>
+        <hr/>
+</article>
+
+<article class="article">
+    <h2>ATRACCION 4</h2>
+    <ul>
+       
+        <li>  <a href="VISITA/MERCADO GUADALUPE.mp4">MERCADO GUADALUPE</a> </li>
+
+    </ul>
+    <hr/>
+</article>
+
+<article class="article">
+   
+    <h2>ATRACCION 5</h2>
+        <ul>
+            
+            <li>  <a href="ATRACCION4/CASCADAS AQUIXTLA.mp4">CASCADAS AQUIXTLA</a> </li>
+           
+        </ul>
+        <hr/>
+</article>
+
+<article class="article">
+    <h2>ATRACCION 6</h2>
+    <ul>
+        
+        <li>  <a href="TRADICION/FESTIVAL.mp4">FESTIVAL LUS Y VIDA</a> </li>
+        
+    </ul>
+    <hr/>
+</article>
+        
+
+    </section>
+
+    <aside>
+        <h2>Barra lateral</h2>
+        <form>
+            <input type="text">
+            <input type="submit" value="buscar">
+        </form>
+    </aside>
+    <div class="clearfix"></div>
+    <footer>
+        <marquee bgcolor="#006699" behavior="alternate" direction="left">
+            <b><font color="#FFFFCC" size="5">JANA &copy; 2024 </font></b>
+        </marquee>
+    </footer>
+</div>
+</body>
+</html>
